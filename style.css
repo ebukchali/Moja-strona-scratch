@@ -1,0 +1,128 @@
+/*  Strona została stworzona przez Mariusza Gał, Wszystko jest stworzone manualnie,
+    oprócz niktórych elementów css Strona z której korzystałem podczas tworzenia css: (https://html-css-js.com/css/generator/). */
+
+body {
+  background-image:url('Source/background4.gif');
+  background-size:100%;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  margin:0 10;
+}
+
+#kolornap {
+  color: rgb(255, 236, 172);
+  background: transparent;
+  text-shadow: 0 0 15px rgba(255,255,255,.5), 0 0 10px rgba(255,255,255,.5);
+}
+
+#kolornapprawo {
+  color: rgb(255, 236, 172);
+  background: transparent;
+  text-shadow: 0 0 15px rgba(255,255,255,.5), 0 0 10px rgba(255,255,255,.5);
+  text-align: right;
+}
+
+#wazne {
+  color: rgb(187, 255, 0);
+  background: transparent;
+  text-shadow: 0 0 15px rgba(238, 255, 0, 0.5), 0 0 10px rgba(255, 238, 0, 0.5);
+}
+
+#kolorzmiany {
+  color:#0099ff
+}
+
+#tytul {
+  color: rgba(255, 255, 255, 0.705);
+  background: transparent;
+  text-shadow: 0 0 15px rgba(222, 140, 255, 0.76), 0 0 10px rgba(225, 0, 255, 0.719);
+}
+
+table.purpleHorizon {
+  border: 4px solid #792396;
+  background-color: #555555;
+  width: 350px;
+  text-align: center;
+  border-collapse: collapse;
+  }
+table.purpleHorizon td, table.purpleHorizon th {
+  border: 3px solid #FF009E;
+  padding: 4px 5px;
+  }
+table.purpleHorizon tbody td {
+  font-size: 13px;
+  font-weight: bold;
+  color: #FFFFFF;
+  }
+table.purpleHorizon tr:nth-child(even) {
+  background: #CC3BFC;
+  }
+table.purpleHorizon thead {
+  background: #792396;
+  border-bottom: 4px solid #792396;
+  }
+table.purpleHorizon thead th {
+  font-size: 19px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: left;
+  border-left: 2px solid #792396;
+  }
+table.purpleHorizon thead th:first-child {
+  border-left: none;
+  }
+  
+table.purpleHorizon tfoot {
+  font-size: 13px;
+  font-weight: bold;
+  color: #FFFFFF;
+  background: #CE3CFF;
+  background: -moz-linear-gradient(top, #da6dff 0%, #d34fff 66%, #CE3CFF 100%);
+  background: -webkit-linear-gradient(top, #da6dff 0%, #d34fff 66%, #CE3CFF 100%);
+  background: linear-gradient(to bottom, #da6dff 0%, #d34fff 66%, #CE3CFF 100%);
+  border-top: 5px solid #792396;
+  }
+table.purpleHorizon tfoot td {
+  font-size: 13px;
+  }
+table.purpleHorizon tfoot .links {
+  text-align: right;
+  }
+table.purpleHorizon tfoot .links a{
+  display: inline-block;
+  background: #792396;
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 5px;
+  }
+
+#zdjecie {
+  -webkit-box-shadow: 17px 18px 15px 10px rgba(0,0,0,0.49); 
+  box-shadow: 17px 18px 15px 10px rgba(0,0,0,0.49);
+}
+
+#audio {
+  -moz-transform: translate(0px, 50px);
+  -webkit-transform: translate(0px, 50px);
+  -o-transform: translate(0px, 50px);
+  -ms-transform: translate(0px, 50px);
+  transform: translate(0px, 50px);
+  }
+
+#sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  padding: 15px;
+  background-color: #000000a1;
+  border: 2px solid #ffffff44;
+  color: #ffffff;
+  }
+
+  #znak {
+  -moz-transform: translate(-50px, 0px);
+  -webkit-transform: translate(-50px, 0px);
+  -o-transform: translate(-50px, 0px);
+  -ms-transform: translate(-50px, 0px);
+  transform: translate(-50px, 0px);
+  }
