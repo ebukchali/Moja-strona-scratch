@@ -8,7 +8,7 @@
             "type": "pwa-chrome",
             "request": "launch",
             "name": "Open index1.html",
-            "file": "c:\\Users\\ebukc\\Desktop\\Strona o moich projektach w scratchu\\index1.html"
+            "file": "ebukchali\\Moja-strona-scratch\\index1.html"
         }
     ]
 }
